@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="#505c70"
+    android:layout_gravity="center_horizontal">
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BloodHub"
+        android:textColor="#ff1a1a"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bs"
+        android:id="@+id/StartText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/StartText"
+        android:layout_centerHorizontal="true">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnlogin"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            fancy:fb_defaultColor="#247a3e"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_fontIconResource="&#xf090;"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="10dp"
+            fancy:fb_text="Login"
+            fancy:fb_textColor="#FFFFFF" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnregister"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            fancy:fb_defaultColor="#247a3e"
+            fancy:fb_focusColor="#000000"
+            fancy:fb_fontIconResource="&#xf062;"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="10dp"
+            fancy:fb_text="Sign Up"
+            fancy:fb_textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:text="Be a Life Saviour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#5be560"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/quote" />
+
+</RelativeLayout>

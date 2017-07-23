@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+       >
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/faceblood"
+            android:textColor="#000000"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textSize="50sp"
+            />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#9E300B"
+            android:textSize="30sp"
+            android:text="@string/donor_name_here"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image"
+            android:contentDescription="@string/singlelistitemphoto"
+            android:adjustViewBounds="true" />
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E300B"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/select_blood_group"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E300B"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/distance_range"
+            android:id="@+id/textVieww"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/_0_km"
+            android:textColor="#9E300B"
+            android:textSize="20sp"
+            android:id="@+id/DistanceText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:text="@string/find_people_near_by"
+            android:id="@+id/findppl"
+            android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/nice_button"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:shadowRadius="1"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowColor="@android:color/black"
+            android:layout_marginBottom="30dp"
+          />
+
+    </LinearLayout>
+</ScrollView>

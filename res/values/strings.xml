@@ -1,0 +1,163 @@
+<resources>
+
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+
+    <string name="internet">Internet</string>
+    <string name="mobile">Mobile</string>
+    <string name="menu_delete">Delete item</string>
+    <string name="menu_history">Show History</string>
+    <string name="message_elipses">Message...</string>
+    <string name="verificationText">Enter the verification code sent to your email</string>
+    <string name="descr">Enter the code below that is sent to your email</string>
+    <!--///////////////////////////////////// -->
+    <string name="successlogin">Login Successfully</string>
+    <string name="failurelogin">Login failed. Try again</string>
+    <string name="nonetwork">No network available</string>
+    <string name="authentication">Authenticating</string>
+    <string name="validemail">Enter a valid username</string>
+    <string name="validpassword">Enter correct password</string>
+    <string name="needblood">need blood</string>
+    <string name="notificationsuccess">Notified</string>
+    <string name="nodonoravailable">No donor is avaiable</string>
+    <string name="distancesearchplz">Please search for some distance range</string>
+    <string name="searchingdonors">Searching available donors</string>
+    <string name="logout">Logout</string>
+    <string name="surelogout">Are you sure you want to logout?</string>
+    <string name="avaitodonate">persons available to donate</string>
+    <string name="nooneavail">No one is available to donate</string>
+    <string name="bloodreq">Blood Required</string>
+    <string name="bloodreqres">Blood Response Notification</string>
+    <string name="verifymobnoist">Verify your mobile number first</string>
+    <string name="enternumberist">Enter a phone number</string>
+    <string name="incorrectnumber">Incorrect number provided</string>
+    <string name="serviceerror">Service error</string>
+    <string name="callfailed">Verification call failed</string>
+    <string name="regfailed">Registration failed</string>
+    <string name="checkemailalaka">Check your email address</string>
+    <string name="passdoesnotmatch">Password does not match</string>
+    <string name="userexistedalaka">User with this Username already existed, Try another one.</string>
+    <string name="verifymobinum">Verifying mobile number</string>
+    <string name="codetoemail">Sending verification code to email</string>
+    <string name="checkbc">Checking Username</string>
+    <string name="wrongname">Enter between 4 and 20 characters</string>
+    <string name="wrongnamex">Enter between 4 and 20 characters</string>
+    <string name="wrongpass">Enter between 4 and 16  characters</string>
+    <string name="wrongage">Enter correct age</string>
+    <string name="waleednumber">Enter valid number</string>
+    <string name="gpsnhsta">Location disabled</string>
+    <string name="seteka">Enable your location please !</string>
+    <string name="kuna">Settings</string>
+    <string name="taty">Cancel</string>
+    <string name="sharestat">Few drops of your blood can save someone\'s life.
+                        Never forget to download BloodHub app from playstore and be a part of our team. Thank you.</string>
+
+    <string name="nshtaupdates">Nothing to update</string>
+    <string name="ruksha">Profile updated. Login Again to see changes</string>
+    <string name="erroza">Error updating profile. Try Again</string>
+    <string name="updateskana">Updating profile photo</string>
+    <string name="OOM">Sorry. Something went wrong Try again</string>
+    <string name="verwrka">Enter verification code</string>
+    <string name="marayar">Wrong code entered. Try again</string>
+    <string name="successsignup">Created Successfully</string>
+    <string name="pesh">Sorry sign up failed. Click again</string>
+    <string name="jorom">Creating Account</string>
+<string name="verfsuccess">Verification Successful</string>
+<string name="changename">Change your name</string>
+    <string name="changepassword">Change your password</string>
+    <string name="changeno">Change your number</string>
+    <string name="changebloodgroup">Change bloodgroup</string>
+
+    <string name="changeimage">Change your photo</string>
+
+
+    <!--///////////////////////////////////// -->
+
+    <string name="newSignUppassword">New Password</string>
+    <string name="newSignUpname">New Name</string>
+    <string name="newSignUpcontact_no">New Contact No.</string>
+    <string name="changephoto">Update Photo</string>
+    <string name="updateclick">Update</string>
+    <string name="faceblood">BloodHub</string>
+    <string name="updateProfile">Update profile</string>
+    <string name="namie">Name</string>
+    <string name="google_app_id">205852396498</string>
+    <string name="agie">Age</string>
+    <string name="dsitancie">Distance</string>
+    <string name="verifymobile">Verify No.</string>
+    <string name="donor_dist_here">Donor Distance Here</string>
+    <string name="CropImage">Cropping Profile Photo</string>
+    <string name="loadimage">Select Image</string>
+    <string name="finalimage">Done</string>
+    <string name="crop">Crop Image</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="mainGUI">Home</string>
+    <string name="image">Verification</string>
+    <string name="donorslist">Donors list</string>
+    <string name="donateblood">BloodHub</string>
+    <string name="ContactDonor">Contact Requester</string>
+    <string name="UserGuide">User Guide</string>
+    <string name="facebook_id">1537284776579250</string>
+    <string name="nearbyppl">Nearby People</string>
+    <string name="SignUpLogo">SignUpLogo</string>
+    <string name="LoginLogo">LoginLogo</string>
+    <string-array name="blood_type">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="loginemail">Email</string>
+    <string name="loginpassword">Password</string>
+    <string name="loginbutton">Login</string>
+    <string name="createaccount">Click here to SignUp</string>
+    <string name="SignUpname">Name</string>
+    <string name="SignUpemail">Email</string>
+    <string name="SignUppassword">Password</string>
+    <string name="SignUpage">Age</string>
+    <string name="SignUpcontact_no">Re-enter password</string>
+    <string name="next_step">Next</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="topstartguilogo">TopStartGUILogo</string>
+    <string name="downstartguilogo">DownStartGUIlogo</string>
+    <string name="StartGUIlogin">Login</string>
+    <string name="msgBack">Msg Back</string>
+    <string name="callBack">Call Back</string>
+    <string name="notavailable">Not Available now</string>
+    <string name="unfit">Medically Unfit</string>
+    <string name="StartGUIregister">Register</string>
+    <string name="how_to_use">Invite Friends</string>
+    <string name="select_blood_group">Blood Group Required ?</string>
+    <string name="distance_range">Distance Range ?</string>
+    <string name="_0_km">0 km</string>
+    <string name="find_people_near_by">Contact Donors</string>
+    <string name="singlelistitemphoto">SingleListItemPhoto</string>
+    <string name="donor_name_here">Donor Name Here</string>
+    <string name="requester_name_here">Requester Name Here</string>
+    <string name="donor_age_here">Donor Age Here</string>
+    <string name="donor_email_here">Donor Email Here</string>
+    <string name="msgDonor">Msg</string>
+    <string name="callDonor">Call</string>
+    <string name="notifyDonor">Notify</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="uploadimagecameraimage">UploadImageCameraImage</string>
+    <string name="proceed">Verify Code</string>
+    <string name="howtouse">
+        \u2022 First register yourself using Register button providing sufficient details.\n
+        \n\u2022 Use Login button to enter main interface of the application.\n
+        \n\u2022 Select appropriate blood group you required.\n
+        \n\u2022 Select range of distance you want to find donors in.\n
+        \n\u2022 Use distance slider to know if donors are present in that range or not.\n
+        \n\u2022 Click on Search People Nearby to see details of the donors available.\n
+        \n\u2022 Use Msg Call and notify buttons to contact specific donors.\n
+    </string>
+</resources>

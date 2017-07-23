@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:background="#505c70"
+    android:layout_height="fill_parent"
+    android:padding="40dp">
+
+    <TextView
+        android:text="Note: Location is important to save so people can search you "
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/descr" />
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblLocation" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnShowLocation"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        fancy:fb_defaultColor="#247a3e"
+        fancy:fb_focusColor="#000000"
+        fancy:fb_fontIconResource="&#xf124;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="10dp"
+        fancy:fb_text="Get Location"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/done"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        fancy:fb_defaultColor="#247a3e"
+        android:gravity="center"
+        fancy:fb_focusColor="#000000"
+        fancy:fb_fontIconResource="&#xf00c;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="10dp"
+        fancy:fb_text="Done"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        >
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E300B"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/select_blood_group"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E300B"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/distance_range"
+            android:id="@+id/textVieww"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/_0_km"
+            android:textColor="#9E300B"
+            android:textSize="20sp"
+            android:id="@+id/DistanceText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

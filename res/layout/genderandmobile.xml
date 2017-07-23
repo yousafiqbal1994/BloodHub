@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:background="#505c70"
+    android:layout_height="fill_parent"
+    android:padding="40dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+        <EditText android:id="@+id/input_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Mobile Number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/verifyMobNo"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        fancy:fb_defaultColor="#247a3e"
+        fancy:fb_focusColor="#000000"
+        fancy:fb_fontIconResource="&#xf00c;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="10dp"
+        fancy:fb_text="Verify"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+</LinearLayout>

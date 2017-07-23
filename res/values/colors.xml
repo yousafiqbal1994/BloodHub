@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg">#cc7a00</color>
+    <color name="purple">#63029D</color>
+    <color name="NiceButtonStartColor">#4AA02C</color>
+    <color name="NiceButtonEndColor">#348017</color>
+    <color name="NiceButtonDisabledStartColor">#565051</color>
+    <color name="NiceButtonDisabledEndColor">#736F6E</color>
+    <color name="NiceButtonBorderColor">#254117</color>
+    <color name="greyish">#fff2f1f2</color>
+    <color name="black">#000</color>
+    <color name="orange">#FA0</color>
+    <color name="red">#ff1a1a</color>
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+    <color name="very_dark_gray">#636363</color>
+
+    <color name="view_bg">#b20e0f</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_bg">#3e4a56</color>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="#505c70"
+    android:layout_gravity="center_horizontal">
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BloodHub"
+        android:textColor="#ff1a1a"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bs"
+        android:id="@+id/StartText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_above="@+id/StartText"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+                android:id="@+id/remoteUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:id="@+id/callState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ringing"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                />
+        <TextView
+                android:id="@+id/callDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="4dp"
+                android:text="00:00"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+    </LinearLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/endcall"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_height="60dp"
+        fancy:fb_defaultColor="#FF0000"
+        fancy:fb_focusColor="#000000"
+        fancy:fb_fontIconResource="&#xf00d;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="10dp"
+        fancy:fb_text="End Call"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

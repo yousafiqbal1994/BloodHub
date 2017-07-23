@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:fillViewport="true"
+    android:background="#505c70"
+    android:fitsSystemWindows="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:background="#505c70"
+    android:layout_height="fill_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:text="You can change privacy settings later if you want"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/descr" />
+
+    <TextView
+        android:text="Your Blood Group?"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/textVieww" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/bgspinner"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Your Gender?"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Who can search you ?"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/searchspinner"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Who can contact you through mobile?"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/mobilenumberspinner"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Who can contact you through internet?"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/internetspinner"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/next"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        fancy:fb_defaultColor="#247a3e"
+        fancy:fb_focusColor="#000000"
+        fancy:fb_fontIconResource="&#xf00c;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="10dp"
+        fancy:fb_text="Next"
+        android:gravity="center"
+        android:layout_gravity="right|center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+</LinearLayout>
+</ScrollView>

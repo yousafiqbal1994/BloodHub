@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp">
+        <TextView
+                android:id="@+id/txtSenderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text=""
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:paddingBottom="6dp"
+                android:textColor="@android:color/black" android:textStyle="bold"
+            android:maxLines="1" />
+
+        <TextView
+                android:id="@+id/txtDate"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:paddingBottom="6dp"
+                android:textSize="12sp"
+                android:text=""
+                android:layout_alignBottom="@+id/txtSenderName"
+                />
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtSenderName"
+                android:layout_alignParentRight="true"
+                android:padding="6dp"
+                android:background="@drawable/rightchatview"
+                >
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                    android:id="@+id/txtMessage"
+                    android:paddingRight="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:text="Hello, how are you?"
+                    />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
